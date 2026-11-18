@@ -1,3 +1,10 @@
+## Unreleased
+
+* **Breaking:** migrate Material and Cupertino widgets to `material_ui` and `cupertino_ui` (Flutter >=3.44).
+* Retain the fork's autocomplete empty-backspace guard and popup anchoring/shrink fixes.
+* Use Flutter's `scrollCacheExtent` internally while preserving the existing `ListViewProps.cacheExtent` API.
+* Avoid updating the focus notifier after the dropdown is removed with autocomplete open.
+
 ## [7.0.0] - 2026.04.03
 * #### New Feature:
   * Add adaptive platform Ui feature: `Material`, `Cupertino` and `Adaptive`
